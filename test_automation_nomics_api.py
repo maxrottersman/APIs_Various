@@ -4,9 +4,8 @@
 from sqlite_utils import Database
 import sqlite3
 
-#pip install -U coindesk
+# https://api.nomics.com/v1
 
-from coindesk.client import CoindeskAPIClient
 
 #api_client = CoindeskAPIClient.start('currentprice')
 #response = api_client.get()
