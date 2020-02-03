@@ -10,7 +10,7 @@ querystring = {"show":"usd","coin":"btc"}
 
 headers = {
     'x-rapidapi-host': "bravenewcoin-v1.p.rapidapi.com",
-    'x-rapidapi-key': "2b9d949e28msh7079164c2f9c012p1d5ba2jsnb17a5e089c30"
+    'x-rapidapi-key': ""
     }
 
 response = requests.request("GET", url, headers=headers, params=querystring)

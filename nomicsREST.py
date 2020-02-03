@@ -16,7 +16,7 @@ class nomicsREST(object):
 
     # Initialize the class with API key and a URL
     # The URL is included just in the case that Nomics changes it's url, or you're using a testnet
-    def __init__ (self, key='1fc83228c21c5dc0380e9c647d7ee91a', url=''):
+    def __init__ (self, key='', url=''):
         self.key = key
         if url:
             self.url = url
